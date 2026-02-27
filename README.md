@@ -13,7 +13,6 @@ This project demonstrates the complete development lifecycle of a Machine Learni
 - **Embedded System Insights**:
    <br> The final model was exported into a C++ header file (LogisticRegressor.h) for deployment on hardware with limited resources, such as an Arduino.
    <br> **uantization & Efficiency**: The model coefficients were optimized to minimize memory footprint (RAM and Flash), which is critical for microcontrollers.
-   <br> **Edge AI**: Running the model directly on the "Edge" ensures data privacy (no data is sent to the cloud) and provides near-instant response times for real-time sentiment analysis.
   
 # Project Structure
 - `Sentiment_Analysis_IMDb.ipynb`: The main Python notebook containing the training pipeline.
